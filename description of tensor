@@ -1,0 +1,35 @@
+Importing NumPy:
+1.	The program begins by importing the NumPy library as np, which is used for numerical operations and handling arrays of multiple dimensions.
+Creating a Scalar (0D Tensor):
+2.	A scalar value 7 is converted into a NumPy array using np.array(7).
+3.	It is a 0-dimensional array.
+4.	The shape of a scalar is (), indicating no dimensions.
+5.	The number of dimensions (ndim) is 0.
+Creating a 1D Tensor (Vector):
+6.	A one-dimensional array [1, 2, 3] is created using np.array([1, 2, 3]).
+7.	It is a 1D array (also called a vector).
+8.	The shape is (3,), indicating 3 elements in a single row.
+9.	The number of dimensions (ndim) is 1.
+Creating a 2D Tensor (Matrix):
+1.	A two-dimensional array [[1, 2, 3], [4, 5, 6]] is created using np.array.
+2.	This is a 2D array (also called a matrix).
+3.	The shape is (2, 3), meaning 2 rows and 3 columns.
+4.	The number of dimensions (ndim) is 2.
+Creating a 3D Tensor:
+1.	A three-dimensional array [[[1, 2], [3, 4]], [[5, 6], [7, 8]]] is created using np.array.
+2.	This is a 3D tensor (array with 3 axes).
+3.	The shape is (2, 2, 2), representing 2 blocks of 2×2 matrices.
+4.	The number of dimensions (ndim) is 3.
+Creating a 4D Tensor:
+1.	A four-dimensional array is created with 2 sets of 2×2×2 tensors using np.array.
+2.	This is a 4D tensor (array with 4 axes).
+3.	The shape is (2, 2, 2, 2).
+4.	The number of dimensions (ndim) is 4.
+Creating a 5D Tensor:
+1.	A five-dimensional array is created with 2 groups of 2×2×2×2 tensors using np.array.
+2.	This is a 5D tensor (array with 5 axes).
+3.	The shape is (2, 2, 2, 2, 2).
+4.	The number of dimensions (ndim) is 5.
+Printing Shapes and Dimensions:
+5.	For each array, the program prints its shape using .shape.
+6.	The number of dimensions is displayed using .ndim.
