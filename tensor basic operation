@@ -1,0 +1,71 @@
+import numpy as np
+
+# Scalar (0D Tensor)
+scalar = np.array(7)
+print("Scalar Shape:", scalar.shape)
+print("Scalar Dimensions:", scalar.ndim)
+
+# 1D Tensor (Vector)
+tensor1d = np.array([1, 2, 3])
+print("1D Tensor Shape:", tensor1d.shape)
+print("1D Tensor Dimensions:", tensor1d.ndim)
+
+# 2D Tensor (Matrix)
+tensor2d = np.array([[1, 2, 3], [4, 5, 6]])
+print("2D Tensor Shape:", tensor2d.shape)
+print("2D Tensor Dimensions:", tensor2d.ndim)
+
+# 3D Tensor
+tensor3d = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+print("3D Tensor Shape:", tensor3d.shape)
+print("3D Tensor Dimensions:", tensor3d.ndim)
+
+# 4D Tensor
+tensor4d = np.array([
+    [
+        [[1, 2], [3, 4]],
+        [[5, 6], [7, 8]]
+    ],
+    [
+        [[9, 10], [11, 12]],
+        [[13, 14], [15, 16]]
+    ]
+])
+print("4D Tensor Shape:", tensor4d.shape)
+print("4D Tensor Dimensions:", tensor4d.ndim)
+
+# 5D Tensor
+tensor5d = np.array([
+    [
+        [
+            [[1, 2], [3, 4]],
+            [[5, 6], [7, 8]]
+        ],
+        [
+            [[9, 10], [11, 12]],
+            [[13, 14], [15, 16]]
+        ]
+    ],
+    [
+        [
+            [[17, 18], [19, 20]],
+            [[21, 22], [23, 24]]
+        ],
+        [
+            [[25, 26], [27, 28]],
+            [[29, 30], [31, 32]]
+        ]
+    ]
+])
+print("5D Tensor Shape:", tensor5d.shape)
+print("5D Tensor Dimensions:", tensor5d.ndim)
+
+# Print All Array Values
+print("\n--- Array Values ---")
+print("Scalar (0D):", scalar)
+print("1D Tensor:\n", tensor1d)
+print("2D Tensor:\n", tensor2d)
+print("3D Tensor:\n", tensor3d)
+print("4D Tensor:\n", tensor4d)
+print("5D Tensor:\n", tensor5d)
+
